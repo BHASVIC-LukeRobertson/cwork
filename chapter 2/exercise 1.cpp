@@ -13,15 +13,19 @@ int main()
 
     printf("\n Guess a number between 1 and 10: \n");
 
-    scanf("%i",ges); // get guess input
+    scanf("%i",&ges); // get guess input
 
     if (ges == num1){
         printf("Correct");
     }
 
     else{
-        printf("Wrong");
+        if (ges == num1+1 or ges == num1-1){
+            printf("Close!");
+        }
+        else{
+            printf("Wrong.");
+        }
     }
-
     return 0;
 }

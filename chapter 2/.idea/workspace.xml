@@ -58,11 +58,6 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="exercise 1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter 2" TARGET_NAME="exercise 1.cpp" CONFIG_NAME="exercise 1.cpp">
       <option name="sourceFile" value="exercise 1.cpp" />
       <method v="2">
@@ -85,6 +80,7 @@
       <updated>1694772816731</updated>
       <workItem from="1694772818534" duration="1872000" />
       <workItem from="1695039959063" duration="784000" />
+      <workItem from="1695040916952" duration="583000" />
     </task>
     <servers />
   </component>
