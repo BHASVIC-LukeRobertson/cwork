@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
+#include<string.h>
 int main()
 {
     // assign variables
@@ -10,20 +11,10 @@ int main()
     float result = 0;
 
     // get input for num1/2
-    printf("Input 2 numbers in the format (num1,num2): \n");
-    scanf("%f,%f",&num1,&num2);
-
-    // check inputs
-    int num11 = 0;
-    int num22 = 0;
-    num11 = int(num1);
-    num22 = int(num2);
-    int check1 = isdigit(num11);
-    int check2 = isdigit(num22);
-    if(check1 != 0 or check2 != 0){
-        printf("Invalid input.");
-        return 0;
-    }
+    printf("Input num1:\n");
+    scanf("%f",&num1);
+    printf("Input num2:\n");
+    scanf("%f",&num2);
 
     // get input for operator
     printf("Input operator (+,-,*,/)\n");
@@ -45,8 +36,6 @@ int main()
             break;
     }
     printf("Result of your calculation is: %f\n",result);
-    printf("%s",check1);
-    printf("%s",check2);
     return(0);
 }
 
